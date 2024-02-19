@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-alibi-explainer
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-alibi-explainer/kserve-alibi-explainer@sha256:976afb9829ba105f95e2158e1c98ae5bb716be32472338c5de760b7c371f7232
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-alibi-explainer/kserve-alibi-explainer@sha256:425019782f5a8c4f0c692e593b1edec95698b8892f07ed62639b5d7e2bb7b436
         imagePullPolicy: Always
         name: container-image
         ports:
