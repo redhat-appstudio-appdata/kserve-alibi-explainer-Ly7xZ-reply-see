@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kserve-alibi-explainer
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-alibi-explainer/kserve-alibi-explainer@sha256:44d8a1db42c9dd878e53822e61eac6b48b6adb6bd5beecddf4efb9f7a0097c68
+        name: container-image
+        resources: {}
+status: {}
